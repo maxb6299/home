@@ -1,14 +1,57 @@
-body
-{
+body {
     background-color: rgb(20, 17, 36);
     color: rgb(153, 193, 244);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 600;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 64px;
+    margin: 0px;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 64px;
+}
+
+.box,
+.header {
+    background-color: rgb(43, 37, 77);
+    box-shadow: rgba(0, 0, 0, 0.548) 0px 5px 15px;
+    /* ? Not sure if I will keep this. Might use above instead ^ */
+    /* box-shadow: rgba(69, 50, 139, 0.4) -5px 5px, 
+                rgba(69, 50, 139, 0.3) -10px 10px, 
+                rgba(69, 50, 139, 0.2) -15px 15px,
+                rgba(69, 50, 139, 0.1) -20px 20px, 
+                rgba(69, 50, 139, 0.05) -25px 25px; */
+}
+
+.box {
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title {
+    font-size: 64px;
+    font-style: italic;
+    align-self: center;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.about,
+.interests,
+.contact,
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
