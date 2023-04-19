@@ -1,2 +1,3 @@
-# landing-page
-This is a project from https://www.theodinproject.com that is designed to exercise basic HTML and CSS skills in the form of a landing page.
+# home 
+https://maxb6299.github.io/home/
+This project is a website that demostrates my interests, programming projects, contact information, and links my resume. I made this project to practice my CSS (mainly flexbox) and HTML skills as well as to allow people to get to know more about me. 
