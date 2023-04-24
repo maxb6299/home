@@ -25,12 +25,6 @@ a
 {
     background-color: rgb(43, 37, 77);
     box-shadow: rgba(0, 0, 0, 0.548) 0px 5px 15px;
-    /* ? Not sure if I will keep this. Might use above instead ^ */
-    /* box-shadow: rgba(69, 50, 139, 0.4) -5px 5px, 
-                rgba(69, 50, 139, 0.3) -10px 10px, 
-                rgba(69, 50, 139, 0.2) -15px 15px,
-                rgba(69, 50, 139, 0.1) -20px 20px, 
-                rgba(69, 50, 139, 0.05) -25px 25px; */
 }
 
 .box 
@@ -45,6 +39,10 @@ a
 {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
 }
 
 .main-title 
