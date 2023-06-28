@@ -28,7 +28,6 @@ a
 }
 
 .box 
-/* TODO make boxes flex instead of being static */
 {
     border-radius: 8px;
     padding: 8px;
